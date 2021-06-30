@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: movies
+  name: movies-deployment
 spec:
   selector:
     matchLabels:
